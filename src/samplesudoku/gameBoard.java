@@ -185,10 +185,11 @@ public class gameBoard extends Object implements java.io.Serializable {
         }
         checks--;
         System.out.println(checks + " checks remaining.");
+
         return true;
         }
         
-        
+
 
     }
         

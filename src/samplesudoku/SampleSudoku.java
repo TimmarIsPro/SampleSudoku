@@ -16,9 +16,10 @@ public class SampleSudoku {
         String selection;
 
         //SampleSudoku sudokuApp = new SampleSudoku();
+
         
         gameBoard gb = new gameBoard();
-        
+      
         gb.generateBoard();
                 
         
@@ -75,8 +76,7 @@ public class SampleSudoku {
     }
     
 
-    
-    
+
     static void displayBoard(char[][] gameBoard, char[][] answerBoard)
     {   
         
