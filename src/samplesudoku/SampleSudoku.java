@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package samplesudoku;
 
 import java.util.Arrays;
@@ -21,9 +16,10 @@ public class SampleSudoku {
         String selection;
 
         //SampleSudoku sudokuApp = new SampleSudoku();
+
         
         gameBoard gb = new gameBoard();
-        
+      
         gb.generateBoard();
                 
         
@@ -80,8 +76,7 @@ public class SampleSudoku {
     }
     
 
-    
-    
+
     static void displayBoard(char[][] gameBoard, char[][] answerBoard)
     {   
         
